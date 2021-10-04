@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import WeatherSearch from './WeatherSearch'
+import WeatherSearch from './WeatherSearch';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <WeatherSearch/>
+    <WeatherSearch />
   </React.StrictMode>,
   document.getElementById('root')
 );

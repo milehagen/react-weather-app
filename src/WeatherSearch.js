@@ -1,8 +1,10 @@
+import './WeatherSearch.css';
 import React from "react";
 
 export default function WeatherSearch(){
-    <h1>Weather App</h1>
-    return <form> 
+    return <div>
+        <h1>Weather App</h1>
+        <form className="WeatherSearch-form"> 
         <input type="search"
         autoFocus="on"
         placeholder="Enter a city..."/>
@@ -10,4 +12,5 @@ export default function WeatherSearch(){
     value="Search"/>
 
     </form>
+    </div>
 }
